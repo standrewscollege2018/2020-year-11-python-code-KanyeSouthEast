@@ -1,7 +1,7 @@
 
 import time
 #mark grade boundaries
-A_GRADE_BOUNDARY = 90
+A_GRADE_BOUNDARY = 90 
 B_GRADE_BOUNDARY = 70
 C_GRADE_BOUNDARY = 50
 
