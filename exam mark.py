@@ -1,21 +1,32 @@
 
 import time
+#mark grade boundaries
+A_GRADE_BOUNDARY = 90
+B_GRADE_BOUNDARY = 70
+C_GRADE_BOUNDARY = 50
+
+# max and min mark
+MAX_GRADE = 100
+MIN_GRADE = 0
+
 
 mark = int(input("Please type the mark: "))    
 # learn the mark
-if mark < 100 and mark >0 :
-    if mark >=90 : 
+
+
+if mark < MAX_GRADE and mark > MIN_GRADE :
+    if mark >= A_GRADE_BOUNDARY: 
         print("You get an A ")
-    # over 90 is an Ae
+    # over 90 is an A
     
-    elif mark >=70 :
+    elif mark >= B_GRADE_BOUNDARY :
         print("You get a B ")
     # over 70 is a B
     
-    elif mark >=50 :
+    elif mark >=C_GRADE_BOUNDARY :
         print("You get a C ")
     # over 50 is a C
-    elif mark <50 :
+    elif mark <C_GRADE_BOUNDARY :
         print("You didn't pass ")   
         time.sleep(2.5)
         
@@ -29,13 +40,9 @@ if mark < 100 and mark >0 :
         
         elif rating >=1 :
              print("do you think you should try a harder exam")
-        
+        # difficulty
 
 else :
     print(" Mark is invaid ")
 
 
-# fail is under 50
-
-
-#difficulty 
