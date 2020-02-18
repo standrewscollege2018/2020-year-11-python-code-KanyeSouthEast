@@ -1,4 +1,7 @@
-# age brackets 
+#Elliot Menzies 17/02
+#movie prices
+
+#age brackets
 AGE_18 = 12
 AGE_13 = 9
 AGE_5 = 7
@@ -21,7 +24,8 @@ if age > MIN_AGE and age < MAX_AGE :
         elif age > 5 :
             print("the pirce is %7")
         elif age < 5 :
-            print("its free entry")
+            print("it is the free entry")
+            print("congratulations")
             
             
 print("gimme the money")    
