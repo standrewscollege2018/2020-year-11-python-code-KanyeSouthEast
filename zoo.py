@@ -4,26 +4,15 @@
 child_age=13
 
 
-
-age =int(input("How old are you "))
-
-
-
-if (age < child_age):
-    print("You pay the childrens price")
+try:  
+    age =int(input("How old are you "))
+    if (age < child_age):
+        print("You pay the childrens price")
+        print("That will be $15 please ")
     
-    print("That will be $15 please ")
-
-
-
-else :
-    print("You pay the full price")
-    
-    print("That will be $25 please ")
-
-
-
-
-print("Welcome to the zoo")
-
+    else :
+        print("You pay the full price")
+        print("That will be $25 please ")
+except:
+    print("incorrect value, die quietly")
 

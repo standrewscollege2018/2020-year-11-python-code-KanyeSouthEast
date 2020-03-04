@@ -18,3 +18,9 @@ step = 2
 for num in range (start_num,stop_num, step):
     print(num)
     
+    
+start_num = 10
+stop_num = 0
+step = -1
+for       
+    
